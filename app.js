@@ -1,4 +1,4 @@
-alert(welcome)
+alert(welcome)''
 var doganswer = prompt("do you like dogs?")
 alert(''thankfully '+ doganswer)
 document.write('<div>' + ''hello' + '</div>)
