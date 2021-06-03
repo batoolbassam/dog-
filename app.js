@@ -1,15 +1,18 @@
-alert(welcome)
+alert("welcome")
 var doganswer = prompt("do you like dogs?")
-alert(''thankfully '+ doganswer)
-document.write('<div>' + ''hello' + '</div>)
-if ( doganswer==''yes') {
+alert("thankfully" + doganswer )
+document.write('<div>' + "hello" + '</div>')
+if (doganswer== 'yes') {
   document.write('<h3>' + doganswer + '</h3>')
   }
-  else if ( dogandwer==''no'){
+  
+  else if (doganswer == 'no'){
     document.write('<h3>' + doganswer + '</h3>')
     }
   
+  
 else {
-  alert(''please type a correct answe')
+  alert("please type a correct answer")
+  
   
 }
