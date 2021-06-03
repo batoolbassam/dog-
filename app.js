@@ -51,3 +51,10 @@ var guess = "golden retriever"
     }
 document.write('<h6>' + "golden retriever" +'</h6>')
 
+ 
+
+var img = new Image();
+img.src = "./https://en.m.wikipedia.org/wiki/Golden_Retriever#/media/File%3AGolden_Retriever_Carlos_(10581910556).jpg"
+for (var i = 0; i< x; i++) {
+  document.body.appendChild(img)
+}
