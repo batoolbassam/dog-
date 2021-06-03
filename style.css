@@ -1,0 +1,14 @@
+header{
+  background-color: blue;
+  color: #fff;
+  height: 40px;
+}
+main{
+  background-color: gray;
+  color: #fff;
+  text-align: center ;
+  margin-top: 40px
+}
+div{
+  display: inline-block
+}
