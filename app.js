@@ -51,6 +51,7 @@ var guess = "golden retriever"
     }
 document.write('<h6>' + "golden retriever" +'</h6>')
 
+<<<<<<< HEAD
 function printImg(){
   while (x > 10){
     x = prompt("please enter the number of images you like to see")
@@ -64,3 +65,12 @@ printImg();
 
 
 
+=======
+ 
+
+var img = new Image();
+img.src = "./https://en.m.wikipedia.org/wiki/Golden_Retriever#/media/File%3AGolden_Retriever_Carlos_(10581910556).jpg"
+for (var i = 0; i< x; i++) {
+  document.body.appendChild(img)
+}
+>>>>>>> c8918daab4797b4cdc2d4281de4d7cbbaf592e52

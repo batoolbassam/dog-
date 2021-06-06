@@ -13,6 +13,7 @@ main{
 div{
   display: inline-block
 }
+<<<<<<< HEAD
 .img{
   width: 100px;
   height: 100px;
@@ -24,3 +25,5 @@ footer{
   height:40px;
   font-size:20px;
 }
+=======
+>>>>>>> c8918daab4797b4cdc2d4281de4d7cbbaf592e52
