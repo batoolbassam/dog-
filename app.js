@@ -51,3 +51,16 @@ var guess = "golden retriever"
     }
 document.write('<h6>' + "golden retriever" +'</h6>')
 
+function printImg(){
+  while (x > 10){
+    x = prompt("please enter the number of images you like to see")
+  }
+  for (var i = 0;i<x;i++){
+    document.write("<imgsrc='https://www.google.com/search?q=golden+retriever&oq=go&aqs=chrome.2.69i60j69i57j69i59l2j69i60.1983j0j7&client=ms-android-oppo-rvo3&sourceid=chrome-mobile&ie=UTF-8#imgrc=SUGtiUIRU3v0oM' />" + doganswer)
+  }
+}
+
+printImg();
+
+
+
